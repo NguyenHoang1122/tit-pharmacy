@@ -1,0 +1,128 @@
+/* ProductForm Specific Styles */
+.form-section-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.add-product-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 640px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group.full-width {
+  grid-column: span 2;
+}
+
+@media (max-width: 640px) {
+  .form-group.full-width {
+    grid-column: span 1;
+  }
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.form-group label.required::after {
+  content: ' *';
+  color: #ef4444;
+}
+
+.add-product-form input,
+.add-product-form select,
+.add-product-form textarea {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: inherit;
+  color: #0f172a;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.add-product-form input:focus,
+.add-product-form select:focus,
+.add-product-form textarea:focus {
+  outline: none;
+  border-color: #0d9488;
+  box-shadow: 0 0 0 3px rgba(13, 148, 136, 0.15);
+}
+
+.add-product-form input.error,
+.add-product-form select.error,
+.add-product-form textarea.error {
+  border-color: #ef4444;
+  background-color: #fef2f2;
+}
+
+.error-text {
+  color: #ef4444;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 12px;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 20px;
+}
+
+.btn {
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid transparent;
+}
+
+.btn-secondary {
+  background-color: #f8fafc;
+  color: #4b5563;
+  border-color: #e2e8f0;
+}
+
+.btn-secondary:hover {
+  background-color: #f1f5f9;
+  color: #374151;
+}
+
+.btn-primary {
+  background-color: #0d9488;
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(13, 148, 136, 0.2);
+}
+
+.btn-primary:hover {
+  background-color: #0f766e;
+  box-shadow: 0 6px 14px rgba(13, 148, 136, 0.3);
+}

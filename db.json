@@ -1,0 +1,99 @@
+{
+  "products": [
+    {
+      "id": "PROD-0001",
+      "name": "Paracetamol 500mg",
+      "description": "Thuốc giảm đau và hạ sốt nhanh chóng",
+      "category": "Thuốc giảm đau, hạ sốt",
+      "price": 15000,
+      "quantity": 120,
+      "date": "2026-07-01"
+    },
+    {
+      "id": "PROD-0002",
+      "name": "Amoxicillin 500mg",
+      "description": "Thuốc kháng sinh điều trị nhiễm khuẩn",
+      "category": "Thuốc kháng sinh",
+      "price": 85000,
+      "quantity": 50,
+      "date": "2026-06-25"
+    },
+    {
+      "id": "PROD-0003",
+      "name": "Vitamin C ZinC",
+      "description": "Thực phẩm bảo vệ sức khỏe, tăng cường đề kháng",
+      "category": "Thực phẩm chức năng",
+      "price": 110000,
+      "quantity": 80,
+      "date": "2026-07-05"
+    },
+    {
+      "id": "PROD-0004",
+      "name": "Panadol Extra",
+      "description": "Giảm đau đầu, đau răng, đau cơ",
+      "category": "Thuốc giảm đau, hạ sốt",
+      "price": 45000,
+      "quantity": 200,
+      "date": "2026-07-08"
+    },
+    {
+      "id": "PROD-0005",
+      "name": "Nhiệt kế hồng ngoại Microlife",
+      "description": "Nhiệt kế hồng ngoại Microlife dùng để đo nhiệt độ cơ thể nhanh chóng hơn nhiệt kế thủy ngân truyền thống.",
+      "category": "Dụng cụ y tế",
+      "price": 750000,
+      "quantity": 23,
+      "date": "2026-07-09"
+    },
+    {
+      "id": "PROD-0006",
+      "name": "Bổ gan Boganic Premium",
+      "description": "Giải độc gan, tăng cường chức năng gan, giảm mụn nhọt.",
+      "category": "Thực phẩm chức năng",
+      "price": 950000,
+      "quantity": 47,
+      "date": "2026-07-08"
+    },
+    {
+      "id": "PROD-0007",
+      "name": "Efferangan 500mg",
+      "description": "Thuốc sủi hạ sốt, giảm đau nhanh, vị dễ uống.",
+      "category": "Thuốc giảm đau, hạ sốt",
+      "price": 520000,
+      "quantity": 150,
+      "date": "2026-07-10"
+    },
+    {
+      "id": "PROD-0008",
+      "name": "Meloxicam 15mg",
+      "description": "Thuốc kháng viêm, giảm đau xương khớp và đau cơ cấp tính.",
+      "category": "Thuốc giảm đau, hạ sốt",
+      "price": 680000,
+      "quantity": 65,
+      "date": "2026-07-10"
+    }
+  ],
+  "categories": [
+    {
+      "id": "CAT-001",
+      "name": "Thuốc giảm đau, hạ sốt",
+      "description": "Các loại thuốc hạ sốt, giảm đau thông thường"
+    },
+    {
+      "id": "CAT-002",
+      "name": "Thuốc kháng sinh",
+      "description": "Thuốc điều trị các bệnh nhiễm trùng do vi khuẩn"
+    },
+    {
+      "id": "CAT-003",
+      "name": "Thực phẩm chức năng",
+      "description": "Sản phẩm hỗ trợ sức khỏe, vitamin và khoáng chất"
+    },
+    {
+      "id": "CAT-004",
+      "name": "Dụng cụ y tế",
+      "description": "Thiết bị y tế gia đình và chuyên dụng"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
