@@ -105,7 +105,7 @@ function ProductList({ products, categories, loading }) {
         </div>
       ) : (
         <div className="empty-state">
-          <div className="empty-icon">📂</div>
+          <div className="empty-icon">📦</div>
           <h3>Không có kết quả</h3>
           <p>Không tìm thấy sản phẩm nào khớp với tiêu chí tìm kiếm của bạn.</p>
         </div>

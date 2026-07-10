@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import './App.css';
 import { usePharmacyData } from './hooks/usePharmacyData';
-import Toast from './components/Toast/Toast';
-import ProductList from './components/ProductList/ProductList';
-import ProductForm from './components/ProductForm/ProductForm';
+import Toast from './components/toast/Toast';
+import ProductList from './components/productList/ProductList';
+import ProductForm from './components/productForm/ProductForm';
 
 function App() {
   const [activeTab, setActiveTab] = useState('list');
